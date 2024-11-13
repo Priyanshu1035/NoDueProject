@@ -1,0 +1,48 @@
+name: Bug Report
+description: Report a problem to help us improve.
+title: "[BUG] - "
+labels: bug
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug! Please fill out the details below to help us resolve it as soon as possible.
+
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the issue you are facing.
+      placeholder: Brief description of the bug
+      required: true
+
+  - type: input
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps needed to reproduce the bug.
+      placeholder: 1. Step one, 2. Step two, etc.
+      required: true
+
+  - type: input
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Describe the expected outcome
+      required: true
+
+  - type: input
+    id: actual_behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+      placeholder: Describe the actual outcome
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Any additional information, screenshots, or logs.
