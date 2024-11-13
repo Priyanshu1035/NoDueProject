@@ -1,0 +1,40 @@
+name: Feature Request
+description: Suggest a new idea or improvement.
+title: "[FEATURE] - "
+labels: enhancement
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! Please fill out the form below to share your idea.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Summarize your feature request in a few sentences.
+      placeholder: Brief summary of the feature
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Feature Details
+      description: Provide detailed information on the feature.
+      placeholder: Detailed description of your feature idea
+      required: true
+
+  - type: input
+    id: benefits
+    attributes:
+      label: Benefits
+      description: How does this feature benefit the project?
+      placeholder: Describe the benefit(s) of the feature
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Any additional information or references.
